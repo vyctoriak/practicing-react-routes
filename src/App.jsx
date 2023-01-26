@@ -15,6 +15,7 @@ function App() {
         <div className='content'>
           <Routes>
             <Route path='/' element={<Products />} />
+            <Route path='practicing-react-routes' element={<Products />} />
             <Route path='produto/:id' element={<Product />} />
             <Route path='contact' element={<Contato />} />
           </Routes>
