@@ -17,7 +17,7 @@ const Product = () => {
   if(products === null) return null;
 
   return (
-    <section className={styles.produtos + " animeLeft"}>
+    <section className={styles.products + " animeLeft"}>
       <Head title={`Ranek`} description="Ranek's site description" />
       {products.map((product) => (
         <Link to={`produto/${product.id}`} key={product.id}>

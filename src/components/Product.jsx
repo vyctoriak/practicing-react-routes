@@ -41,8 +41,8 @@ const Product = () => {
       </div>
       <div>
         <h1>{product.nome}</h1>
-        <span className={styles.preco}>R$ {product.preco}</span>
-        <p className={styles.descricao}>{product.descricao}</p>
+        <span className={styles.price}>R$ {product.preco}</span>
+        <p className={styles.description}>{product.descricao}</p>
       </div>
     </section>
   );
