@@ -1,8 +1,10 @@
 import './App.css'
-import { BrowserRouter, Route } from 'react-router-dom'
-import Produtos from './components/Produtos'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Products from './components/Products'
+import Product from './components/Product'
 import Header from './components/Header' 
 import Footer from './components/Footer'
+import Contato from './components/Contato'
 
 function App() {
 
@@ -11,9 +13,11 @@ function App() {
       <BrowserRouter>
         <Header />
         <div className='content'>
-        <Routes>
-          <Route path='/' element={<Produtos />} />
-        </Routes>
+          <Routes>
+            <Route path='/' element={<Products />} />
+            <Route path='produto/:id' element={<Product />} />
+            <Route path='contact' element={<Contato />} />
+          </Routes>
         </div>
         <Footer />
       </BrowserRouter>
