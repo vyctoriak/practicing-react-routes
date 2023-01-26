@@ -20,7 +20,7 @@ const Product = () => {
     <section className={styles.products + " animeLeft"}>
       <Head title={`Ranek`} description="Ranek's site description" />
       {products.map((product) => (
-        <Link to={`/produto/${product.id}`} key={product.id}>
+        <Link to={`/practicing-react-routes/produto/${product.id}`} key={product.id}>
           <img src={product.fotos[0].src} alt={product.fotos[0].title} />
           <h1 className={styles.name}>{product.nome}</h1>
         </Link>
