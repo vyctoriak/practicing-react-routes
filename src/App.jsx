@@ -16,8 +16,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Products />} />
             <Route path='practicing-react-routes' element={<Products />} />
-            <Route path='produto/:id' element={<Product />} />
-            <Route path='contact' element={<Contato />} />
+            <Route path='practicing-react-routes/produto/:id' element={<Product />} />
+            <Route path='practicing-react-routes/contact' element={<Contato />} />
           </Routes>
         </div>
         <Footer />

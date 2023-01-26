@@ -7,10 +7,10 @@ const Header = () => {
     <nav className={styles.header}>
       <ul>
         <li>
-          <NavLink className={styles.link} to="/" end>Products</NavLink>
+          <NavLink className={styles.link} to="/practicing-react-routes" end>Products</NavLink>
         </li>
         <li>
-          <NavLink className={styles.link} to="/contact">Contato</NavLink>
+          <NavLink className={styles.link} to="/practicing-react-routes/contact">Contato</NavLink>
         </li>
       </ul>
     </nav>
